@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=zhu9+w3^wtblb8lb9c@7qh^mu5zgsf^7&u$)!0)mu3818x763'
+SECRET_KEY = 'IN_LOCAL_SETTINGS'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'demorg.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'demorg',
+        'ENGINE': 'IN_LOCAL_SETTINGS',
+        'NAME': 'IN_LOCAL_SETTINGS',
         'USER': 'IN_LOCAL_SETTINGS',
         'PASSWORD': 'IN_LOCAL_SETTINGS',
         'HOST': 'IN_LOCAL_SETTINGS',
